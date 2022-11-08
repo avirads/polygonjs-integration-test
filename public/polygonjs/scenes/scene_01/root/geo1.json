@@ -1,0 +1,20 @@
+{
+	"type": "geo",
+	"nodes": {
+		"text1": {
+			"type": "text",
+			"params": {
+				"font": "/polygonjs/droid_sans_regular.typeface.json?timestamp=1667903173718"
+			},
+			"flags": {
+				"display": true
+			}
+		}
+	},
+	"params": {
+		"t": [2.1267426023860088, -1.16750051243898, 0]
+	},
+	"flags": {
+		"display": true
+	}
+}

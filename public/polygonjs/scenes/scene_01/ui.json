@@ -1,0 +1,113 @@
+{
+	"nodes": {
+		"hemisphereLight1": {
+			"pos": [150, 100]
+		},
+		"perspectiveCamera1": {
+			"pos": [-200, 100],
+			"nodes": {
+				"events1": {
+					"pos": [-200, 50],
+					"nodes": {
+						"cameraOrbitControls1": {
+							"pos": [150, 50]
+						}
+					}
+				}
+			}
+		},
+		"geo1": {
+			"pos": [-50, -150],
+			"selection": ["text1"],
+			"nodes": {
+				"text1": {
+					"pos": [-100, -150]
+				}
+			}
+		},
+		"geo2": {
+			"pos": [-50, -50],
+			"nodes": {
+				"scatter1": {
+					"pos": [200, -150]
+				},
+				"sphere1": {
+					"pos": [200, -350]
+				},
+				"instance1": {
+					"pos": [350, 250]
+				},
+				"box1": {
+					"pos": [250, 150]
+				},
+				"particlesSystemGpu1": {
+					"pos": [-150, 0],
+					"nodes": {
+						"add1": {
+							"pos": [0, 0]
+						},
+						"globals1": {
+							"pos": [-200, 0]
+						},
+						"output1": {
+							"pos": [200, 0]
+						}
+					}
+				},
+				"MAT": {
+					"pos": [-350, 0],
+					"nodes": {
+						"meshLambertBuilder_INSTANCES": {
+							"pos": [0, 0],
+							"nodes": {
+								"globals1": {
+									"pos": [-200, 0]
+								},
+								"instanceTransform1": {
+									"pos": [0, 0]
+								},
+								"output1": {
+									"pos": [200, 0]
+								}
+							}
+						},
+						"pointsParticles": {
+							"pos": [0, 0],
+							"nodes": {
+								"constant_point_size": {
+									"pos": [0, 0]
+								},
+								"globals1": {
+									"pos": [-200, 0]
+								},
+								"output1": {
+									"pos": [200, 0]
+								}
+							}
+						}
+					}
+				},
+				"particlesSystemGpu2": {
+					"pos": [350, 350],
+					"nodes": {
+						"add1": {
+							"pos": [0, -150]
+						},
+						"attribute1": {
+							"pos": [-200, -150]
+						},
+						"attribute2": {
+							"pos": [200, -150]
+						},
+						"globals1": {
+							"pos": [-200, 0]
+						},
+						"output1": {
+							"pos": [200, 0]
+						}
+					}
+				}
+			}
+		}
+	}
+}

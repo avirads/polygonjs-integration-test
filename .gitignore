@@ -1,0 +1,9 @@
+node_modules/
+build/
+public/polygonjs/backup
+public/polygonjs/js
+public/polygonjs/build
+# When more than one person is working on a scene,
+# it may be useful to also ignore the editor.json
+# to avoid any merge conflict
+# public/polygonjs/scenes/[a-z0-9\_]*/editor.json
